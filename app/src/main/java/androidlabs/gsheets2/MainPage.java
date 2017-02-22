@@ -20,8 +20,8 @@ public class MainPage extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_page);
 
-        getData=(Button)findViewById(R.id.insertUser);
-        sendData=(Button)findViewById(R.id.viewUser);
+        sendData=(Button)findViewById(R.id.insertUser);
+        getData=(Button)findViewById(R.id.viewUser);
 
         getData.setOnClickListener(new View.OnClickListener(){
 
