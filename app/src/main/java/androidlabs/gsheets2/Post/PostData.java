@@ -73,8 +73,8 @@ public class PostData extends AppCompatActivity {
         protected String doInBackground(String... arg0) {
 
             try{
-                //Change your web app deployed URL or u can use this
-                URL url = new URL("https://script.google.com/macros/s/AKfycbx-Nu9l0zuZ0olaCeuS5iBHoaLoDEXtQhvw6TmUokuQj_uR7Uw/exec");
+                //Change your web app deployed URL or u can use this for attributes (name, country)
+                URL url = new URL("https://script.google.com/macros/s/AKfycbz0keSwr2EKCPVdYUT8TjYY_5JgjoPNZlLC3yhfbssIysWn2p1g/exec");
               
                 JSONObject postDataParams = new JSONObject();
 
